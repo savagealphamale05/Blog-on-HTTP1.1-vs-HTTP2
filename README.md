@@ -4,18 +4,6 @@ Understanding What is HTTP
 (.)WWW is about communication between web clients and servers
 (.)Communication between client computers and web servers is done by sending HTTP Requests and receiving HTTP Responses
 
-HTML uses Tags like <head>,<body>,<title>,<p>,etc for different functionalities.
-For EG consider the below code,
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>Hi!</title>
-  </head>
-  <body>
-    <p>Hello world!</p>
-  </body>
-</html>
-
 Understanding what is HTTP1.1
 
 HTTP 1.1 is a version of Hypertext Transfer Protocol (HTTP), the World Wide Web application protocol that runs on top of the Internet's TCP/IP suite of protocols. HTTP 1.1 provides faster delivery of Web pages than the original HTTP and reduces Web traffic. Developed by a committee of the Internet Engineering Task Force (IETF) that includes the Web's chief creator Tim Berners-Lee, HTTP 1.1 is supported by the latest Web servers and browsers.
