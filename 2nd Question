@@ -1,0 +1,53 @@
+(.)Object and properties
+
+A JavaScript object has properties associated with it. A property of an object can be explained as a variable that is attached to the object. Object properties are basically the same as ordinary JavaScript variables, except for the attachment to objects. The properties of an object define the characteristics of the object. You access the properties of an object with a simple dot-notation:
+
+For eg:
+
+objectName.propertyName
+
+(.)Like all JavaScript variables, both the object name (which could be a normal variable) and property name are case sensitive. You can define a property by assigning it a value. For example, let’s create an object named myCar and give it properties named make, model, and year as follows:
+var myCar = new Object();
+
+myCar.make = 'Ford';
+myCar.model = 'Mustang';
+myCar.year = 1969;
+
+(.)Properties of JavaScript objects can also be accessed or set using a bracket notation (for more details see property accessors). Objects are sometimes called associative arrays, since each property is associated with a string value that can be used to access it. So, for example, you could access the properties of the myCar object as follows:
+
+myCar['make'] = 'Ford';
+myCar['model'] = 'Mustang';
+myCar['year'] = 1969;
+
+(.)Undefined in Objects
+
+Unassigned properties of an object are undefined (and not null).
+myCar.color; // undefined
+
+(.)Create JavaScript Object with Object Literal
+
+One of easiest way to create a javascript object is object literal, simply define the property and values inside curly braces as shown below
+let bike = {name: 'SuperSport', maker:'Ducati', engine:'937cc'};
+
+(.)Create JavaScript Object with Constructor
+
+Constructor is nothing but a function and with help of new keyword, constructor function allows to create multiple objects of same flavor as shown below
+function Vehicle(name, maker) {
+   this.name = name;
+   this.maker = maker;
+}
+let car1 = new Vehicle(’Fiesta’, 'Ford’);
+let car2 = new Vehicle(’Santa Fe’, 'Hyundai’)
+console.log(car1.name);    //Output: Fiesta
+console.log(car2.name);    //Output: Santa Fe
+
+(.)Using the JavaScript Keyword new
+
+The following example also creates a new JavaScript object with four properties:
+
+Example
+var person = new Object();
+person.firstName = “John”;
+person.lastName = “Doe”;
+person.age = 50;
+person.eyeColor = “blue”;
